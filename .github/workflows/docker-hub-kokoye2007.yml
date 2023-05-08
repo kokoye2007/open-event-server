@@ -30,7 +30,7 @@ jobs:
         uses: docker/metadata-action@v3
         id: meta
         with:
-          images: $DOCKER_IMAGE_NAME
+          images: kokoye2007/open-event-server
       -
         name: Build
         id: docker_build
